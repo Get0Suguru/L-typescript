@@ -23,5 +23,5 @@
     /* Strict mode */
     "strict": true
   },
-  "include": ["src"]
+  "include": ["src", "../Practice_brainquirks/proj_name/src/practiceOOps.ts"]
 }
