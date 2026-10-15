@@ -9,6 +9,8 @@ const obj = {
   }
 }
 
-for(const k in obj){
-  console.log(k);
+// delete obj.class;  // can't like js
+
+for(const [k, v] of Object.entries(obj)){
+  console.log(k, v);
 }
